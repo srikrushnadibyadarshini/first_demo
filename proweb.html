@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List in html</title>
+</head>
+<body>
+    <main>
+        <ul>
+            <li>apple</li>
+            <ul>
+                <li>color:red</li>
+                <li>season:winter</li>
+            </ul>
+            <li>mango</li>
+            <ul>
+                <li>color:yellow</li>
+                <li></li>
+            </ul>season:winter
+            <li>litchi</li>
+        </ul>
+
+         <ol>
+            <li>apple</li>
+            <ol>
+                <li>color:red</li>
+                <li>season:winter</li>
+            </ol>
+            <li>mango</li>
+            <ol>
+                <li>color:yellow</li>
+                <li>season:winter</li>
+            </ol>
+            <li>litchi</li>
+        </ol>
+    </main>
+    <!--<tr></tr> table row-->
+    <!--<td></td> table data-->
+    <!--<th></th> table header-->
+
+    <table>
+        <thead>
+        <caption>student table</caption>
+        <tr>
+           <!--<th>Name</th>
+            <th>Roll No</th>-->
+            <th colspan="2"><!--INFORMATION will come in two rows-->
+                INFORMATION
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Shubha</td>
+            <td>EI62</td>
+        </tr>
+        <tr>
+            <td>xyz</td>
+            <td>1234</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <h1>Registration Form</h1>
+
+    <form action="/action.php">
+        <input type="text" placeholder="username">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <h5>select your class</h5>
+        <br>
+        <label for="101">
+        <input type="radio" value="XI" name="class" id="101">class XI
+        </label>
+        <br>
+        <label for="102">
+        <input type="radio" value="XII" name="class" id="102">class XII
+        </label>
+        <!--if we use lable then if you click on text it also get selected-->
+        <br>
+        <h5>select fav subject</h5>
+        <br>
+        <label for="math">
+            <input type=checkbox" value="math" name="subject" id="101">math
+        </label>
+        <br>
+        <label for="phy">
+            <input type=checkbox" value="phy" name="subject" id="102">phy
+        </label>
+        <br>
+        <label for="chem">
+            <input type=checkbox" value="chem" name="subject" id="103">chem
+        </label>
+
+        <br>
+        <br>
+        <select name="city" id="101">
+            <option value="BBSR">BBSR</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Banglore">Banglore</option>
+        </select>
+        <br>
+
+        <br>
+        <textarea name="feedback" id="101" placeholder="please give your feedback here" rows="5">feedback</textarea>
+
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+
+    <!--iframe tag-->
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=1TZzL_g_JjuQV251" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <iframe width="560" height="315" scr="https://www.google.com/search?q=wikipedia&oq=wikipe&gs_lcrp=EgZjaHJvbWUqEggAEAAYQxixAxjJAxiABBiKBTISCAAQABhDGLEDGMkDGIAEGIoFMgwIARAAGEMYgAQYigUyBggCEEUYOTIMCAMQABhDGIAEGIoFMgcIBBAAGIAEMgoIBRAAGLEDGIAEMg8IBhAuGEMYsQMYgAQYigUyBggHEAUYQNIBCDMzNTRqMGo3qAIIsAIB8QX1ZYgKPiTJ0fEF9WWICj4kydE&sourceid=chrome&ie=UTF-8" frameborder="0"></iframe>
+
+    <br>
+    <video  width="560" height="315" src="vdo1.mp4" controls loop>video</video>
+</body>
+</html>
